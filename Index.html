@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inspiring Minds Robotics Team</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: #004a99;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 60px;
+      padding-top: 60px; /* for sticky header offset */
+    }
+
+    h2 {
+      color: #004a99;
+      border-bottom: 2px solid #004a99;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    .team-members {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .member {
+      text-align: center;
+      width: 140px;
+      background: white;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .member img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: #ccc;
+      margin-bottom: 10px;
+    }
+
+    .robot-img {
+      width: 300px;
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #004a99;
+      color: white;
+      position: relative;
+      width: 100%;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    ul {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Inspiring Minds Robotics Team</h1>
+  <nav>
+    <a href="#team">Team</a>
+    <a href="#robot">Robot</a>
+    <a href="#strategy">Strategy & Auto</a>
+    <a href="#outreach">Outreach</a>
+    <a href="#gp">Gracious Professionalism</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- Team Section -->
+  <section id="team">
+    <h2>Meet the Team</h2>
+    <div class="team-members">
+      <div class="member">
+        <img src="Davis.jpg" alt="Davis">
+        <p>Davis - Builder</p>
+      </div>
+	<div class="member">
+        <img src="Kade.jpg" alt="Kade">
+        <p>Kade - Coder/Driver</p>
+      </div>
+
+      <div class="member">
+        <img src="Eli.jpg" alt="Eli">
+        <p>Eli - 3D Printer / CAD Programmer</p>
+      </div>
+      <div class="member">
+        <img src="Michael.jpg" alt="Michael">
+        <p>Michael - Driver</p>
+      </div>
+      <div class="member">
+        <img src="Grace.jpg" alt="Grace">
+        <p>Grace - Builder</p>
+      </div>
+      <div class="member">
+        <img src="Jordan.jpg" alt="Jordan">
+        <p>Jordan - All-Around</p>
+      </div>
+      <div class="member">
+        <img src="Catie.jpg" alt="Catie">
+        <p> Caitlin - Outreach</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Robot Section -->
+  <section id="robot">
+    <h2>Our Robot</h2>
+    <p>Pierre is awesome. He is built on a custom straffer chassis that has been cut to size for our needs. He has a wrist band intake and a center plate to sort balls.To shoot the balls he has a custom 6000 rpm motor attached to a custom hood to adjust the angle and speed of the shot.</p>
+    <img src="Robot.jpg" class="robot-img">
+    <img src="robot1.jpg" class="robot-img">
+  </section>
+
+  <!-- Autonomous & Strategy Section -->
+  <section id="strategy">
+    <h2>Game Strategy & Autonomous</h2>
+    <p>Our autonomous for close net begins with firing the preload balls, then grabbing the first rack of balls, firing grabing the second rack, and firing before parking off the line. For the far auto, we fire the preload balls, grab the farthest rack of balls, fire, and attempt to grab 3 balls from the human player zone, firing those before parking off the line. Note: all autos can be adjusted to fit our alliance partners' auto. </p>
+    
+    <p>In Teleop, our strategy is built on cycle efficiency and adaptability:</p>
+    <ul>
+ <li><strong> Driving:</strong> Michael and Kade work together to adapt to field congestion with pirres auto aiming turret; they can fire from anywhere on the field. They use our intake to sort and grab balls on the field.</li>
+      <li><strong>End-Game Focus:</strong>Our Robot is about 17.5 inches square with a large gap in the intake. So we can achieve a full park; however, because of our scoring efficiency, we usually take a partial park and let our alliance member get the full park</li>
+    </ul>
+  </section>
+
+  <!-- Outreach Section -->
+  <section id="outreach">
+    <h2>Outreach</h2>
+    <p>Catie (Caitlin) leads our outreach efforts. This year, we have participated in multiple learning days. During one of those learning days, we gave a presentation about 3D printing. We taught everyone who attended how to use TinkerCAD and turn their designs into real-life prototypes. This was a great opportunity to reach out to other teams and give/recieve advice..</p>
+    <p>This year, we had the chance to showcase our robot at a Rocket Science camp at the Bismarck Public Library. Not only did we demonstrate how our robot worked, but we also brought the LEGO Spike Kits for the kids to explore. This helped spread our love for FIRST and introduce it to some younger kids.</p>
+  </section>
+
+  <!-- Gracious Professionalism Section -->
+  <section id="gp">
+    <h2>Gracious Professionalism</h2>
+    <p>Inspiring Minds Ricochet Robotics embodies Gracious Professionalism by respecting other teams, mentors, and volunteers. We love to collaborate, mentor, and encourage others while focusing on learning and growth. Gracious Professionalism is our favorite FIRST value because it teaches everyone that while we can compete with each other, we can also support and encourage each other simultaneously.</p>
+    <p>We celebrate successes, learn from mistakes, and maintain a positive attitude both on and off the field. We may not be perfect, but we have learned how to put our minds together to produce new ideas. While we do disagree sometimes, we always find a way around it. We can disagree while still working together successfully. Our team collaborates well and is always willing to give all ideas a try.</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Inspiring Minds Robotics Team</p>
+</footer>
+
+</body>
+</html>
+
+
+
